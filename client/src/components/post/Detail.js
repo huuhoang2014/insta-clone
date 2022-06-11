@@ -2,6 +2,7 @@ import { useEffect, useState, useContext, useCallback} from "react";
 import axios from "axios";
 import { useHistory } from 'react-router-dom';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Detail = (props) => {
   const { toggleModal, isCloseHidden } = props;

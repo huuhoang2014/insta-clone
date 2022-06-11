@@ -3,6 +3,7 @@ import axios from 'axios';
 import Header from '../common/Header';
 import Notification from './Notification';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Notifications = () => {
   const [notifications, setNotifications] = useState([]);

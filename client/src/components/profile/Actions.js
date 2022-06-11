@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Actions = (props) => {
   const [selectedAction, setSelectedAction] = useState(1);

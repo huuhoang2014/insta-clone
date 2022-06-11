@@ -2,6 +2,7 @@ import { useEffect, useState, useContext, useCallback } from 'react';
 import axios from 'axios';
 import Detail from './Detail';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Share = (props) => {
   const params = props.match.params;

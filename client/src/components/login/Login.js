@@ -5,6 +5,7 @@ import axios from 'axios';
 import withModal from "../common/Modal";
 import SignUp from "../register/SignUp";
 import Context from "../../context";
+import { CometChat } from "@cometchat-pro/chat";
 
 const Login = (props) => {
   const { toggleModal } = props;

@@ -3,6 +3,7 @@ import axios from 'axios';
 import Header from '../common/Header';
 import Posts from '../post/Posts';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Home = () => {
   const [posts, setPosts] = useState([]);

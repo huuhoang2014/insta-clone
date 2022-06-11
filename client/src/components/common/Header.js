@@ -4,6 +4,7 @@ import withModal from '../common/Modal';
 import Create from '../create/Create';
 import Context from '../../context';
 import logo from '../../logo.png';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Header = (props) => {
   const { toggleModal } = props;

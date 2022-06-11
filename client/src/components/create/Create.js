@@ -1,6 +1,7 @@
 import { useRef, useContext, useState } from "react";
 import axios from "axios";
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Create = (props) => {
   const { toggleModal } = props;

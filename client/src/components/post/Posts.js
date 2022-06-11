@@ -3,6 +3,7 @@ import Post from './Post';
 import Detail from './Detail';
 import withModal from '../common/Modal';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Posts = (props) => {
   const { toggleModal, posts, customStyle } = props;

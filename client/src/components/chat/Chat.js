@@ -2,6 +2,7 @@ import { useEffect, useContext } from 'react';
 import Header from '../common/Header';
 import { CometChatUI } from '../../cometchat-pro-react-ui-kit/CometChatWorkspace/src';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Chat = () => {
   const { cometChat } = useContext(Context);

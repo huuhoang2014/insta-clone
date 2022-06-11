@@ -5,6 +5,7 @@ import UserProfile from './UserProfile';
 import Actions from './Actions';
 import Posts from '../post/Posts';
 import Context from '../../context';
+import { CometChat } from "@cometchat-pro/chat";
 
 const Profile = (props) => {
   const params = props.match.params;
